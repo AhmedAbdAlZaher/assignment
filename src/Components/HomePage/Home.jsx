@@ -7,9 +7,9 @@ import HomeImage from '../../Imgs/avataaars.svg'
 export default function Home() {
 
   return (
-    <section className='Home'>
+    <section className='Home d-flex flex-column justify-content-center align-items-center'>
    <div className='d-flex flex-column justify-content-center align-items-center'>
-    <img className='myimg mb-5 pt-5 mt-5' src={HomeImage} alt="" />
+    <img className='myimg mb-4 ' src={HomeImage} alt="" />
     <h2 className='text-white'>START FRAMEWORK</h2>
     <div className='py-2 d-flex align-items-center justify-content-center'>
       <div className='line'></div>
