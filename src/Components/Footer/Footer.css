@@ -6,3 +6,24 @@
 h3{
     padding-bottom: 5px;
 }
+
+
+.lastly{
+    background-color: #1A252F;
+    padding-bottom: 10px;
+    top:  1;
+    left: 0;
+    right: 0;
+    bottom: 100;
+    position: absolute;
+    z-index: 9999999999;
+}
+
+.icons i{
+    margin: 5px;
+    border-radius: 50%;
+    border: solid;
+    border-width: 1px;
+    padding: 10px;
+   
+}
