@@ -1,4 +1,40 @@
-.overlayer:hover{
-    display: block;
+.overlayer:hover {
+    opacity: 1;
 
+}
+
+.Pr_Home{
+    background-color: white;
+    height: 90vh;
+}
+.pro_line{
+    height: 3px;
+    width: 80px;
+    color: rgb(247, 5, 5);
+    border: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    margin:0 20px 0 20px;
+}
+
+
+
+.overlayer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    background-color: #29b197;
+    transition: 1000ms;
+
+}
+
+.main{
+    overflow: hidden;
+    width: 100%;
 }

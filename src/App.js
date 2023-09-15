@@ -6,6 +6,7 @@ import { createBrowserRouter , RouterProvider } from 'react-router-dom'
 import About from './Components/About/About';
 import Portfolio from './Components/Portfolio/Portfolio';
 import NotFound from './Components/NotFound/NotFound';
+import Contact from './Components/Contact/Contact';
 
 let routers = createBrowserRouter([
   {
@@ -15,6 +16,7 @@ let routers = createBrowserRouter([
       { path: "Home", element: <Home></Home> },
       { path: "about", element: <About></About> },
       { path: "Portfolio", element: <Portfolio></Portfolio>},
+      { path: "Contact", element: <Contact></Contact>},
       { path: "*", element: <NotFound></NotFound>}
     ]
   },

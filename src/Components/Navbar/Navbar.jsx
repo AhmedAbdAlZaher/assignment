@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 export default function navbar() {
   return (
     <>   
-  <Navbar className="bg-body-tertiary">
+  <Navbar className="bg-body-tertiary mb-4">
       <Container>
         <Navbar.Brand href="#home">Navbar with text</Navbar.Brand>
         <Navbar.Toggle />
