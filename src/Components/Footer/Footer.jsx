@@ -12,10 +12,10 @@ export default function Footer() {
           </div>
           <div className='col-md-4 icons'>
             <h3>AROUND THE WEB</h3>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-solid fa-globe"></i>
+            <i className="fa-brands fa-facebook"></i>
+            <i className="fa-brands fa-twitter"></i>
+            <i className="fa-brands fa-linkedin"></i>
+            <i className="fa-solid fa-globe"></i>
           </div>
           <div className='col-md-4'>
             <h3>ABOUT FREELANCER</h3>
